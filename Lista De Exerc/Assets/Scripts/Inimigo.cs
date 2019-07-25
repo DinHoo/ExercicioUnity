@@ -13,6 +13,9 @@ public abstract class Inimigo : MonoBehaviour
     protected Transform target;
     [SerializeField]
     protected float _tipo;
+    [SerializeField]
+    protected bool passWall = true;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +27,7 @@ public abstract class Inimigo : MonoBehaviour
     void Update()
     {
         //if (SceneManager.GetActiveScene().name == "Exercicio1")
-
+        
     }
 
     public void Init()
@@ -41,4 +44,6 @@ public abstract class Inimigo : MonoBehaviour
         transform.Translate(velocity);
 
     }
+
+     
 }

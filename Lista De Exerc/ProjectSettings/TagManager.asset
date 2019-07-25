@@ -9,6 +9,7 @@ TagManager:
   - Azuis
   - CoinSpawn
   - InimigoSpawn
+  - Wall
   layers:
   - Default
   - TransparentFX

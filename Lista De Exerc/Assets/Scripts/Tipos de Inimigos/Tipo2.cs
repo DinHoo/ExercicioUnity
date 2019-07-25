@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tipo1 : Inimigo
+public class Tipo2 : Inimigo
 {
     // Start is called before the first frame update
     void Start()
