@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     Rigidbody2D body;
     [SerializeField]
     float speed;
+    [SerializeField]
+    float life;
 
     float horizontal;
     float vertical;
